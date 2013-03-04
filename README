@@ -1,0 +1,21 @@
+# This is a university project that shows image / video filters in SIMD Intel 32 ASM vs C code.
+# The program uses OpenCV for grabbing webcam frames and GTK to create an interface.
+# Tested in Ubuntu 12.04 / Ubuntu 12.10
+
+# Installing dependencies:
+
+sudo apt-get install libgtk2.0-dev libopencv-dev libcv-dev libhighgui-dev nasm
+
+
+
+# Building:
+
+$ cd filters && make
+$ cd otros && make
+
+
+
+# Execution:
+
+$ filtros/main
+$ otros/main
